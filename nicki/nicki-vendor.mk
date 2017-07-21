@@ -75,8 +75,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
     vendor/sony/nicki/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/nicki/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/nicki/proprietary/firmware/htc_7010.fw:system/firmware/htc_7010.fw \
-    vendor/sony/nicki/proprietary/firmware/htc_9271.fw:system/firmware/htc_9271.fw
+    vendor/sony/nicki/proprietary/vendor/firmware/htc_7010.fw:system/vendor/firmware/htc_7010.fw \
+    vendor/sony/nicki/proprietary/vendor/firmware/htc_9271.fw:system/vendor/firmware/htc_9271.fw
 
 PRODUCT_PACKAGES += \
     tad_static
@@ -184,8 +184,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nicki/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/sony/nicki/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/sony/nicki/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/sony/nicki/proprietary/firmware/htc_7010.fw:system/firmware/htc_7010.fw \
-    vendor/sony/nicki/proprietary/firmware/htc_9271.fw:system/firmware/htc_9271.fw
+    vendor/sony/nicki/proprietary/vendor/firmware/htc_7010.fw:system/vendor/firmware/htc_7010.fw \
+    vendor/sony/nicki/proprietary/vendor/firmware/htc_9271.fw:system/vendor/firmware/htc_9271.fw
 
 PRODUCT_PACKAGES += \
     TimeService \
